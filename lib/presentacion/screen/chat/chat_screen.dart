@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:si_no_app/presentacion/widgets/chat/bubble_message.dart';
 import 'package:si_no_app/presentacion/widgets/chat/bubble_message_friend.dart';
-import 'package:si_no_app/presentacion/widgets/chat/shared/maessage_field_box.dart';
+import 'package:si_no_app/presentacion/widgets/chat/shared/message_field_box.dart';
 
 class ChatScreen extends StatelessWidget {
   const ChatScreen({super.key});
