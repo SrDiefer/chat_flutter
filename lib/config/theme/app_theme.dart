@@ -31,7 +31,7 @@ class AppTheme {
       useMaterial3: true, // Habilita el uso de Material3 (si se usa en la versión de Flutter correspondiente)
       colorSchemeSeed: _colorThemes[selectedColor], // Define el color principal del tema
       //brightness: Brightness.dart // Opción para ajustar el brillo del tema (actualmente comentada)
-      brightness: Brightness.dark
+      // brightness: Brightness.dark
     );
   }
 }

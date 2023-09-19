@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:si_no_app/presentacion/widgets/chat/bubble_message.dart';
 import 'package:si_no_app/presentacion/widgets/chat/bubble_message_friend.dart';
+import 'package:si_no_app/presentacion/widgets/chat/shared/maessage_field_box.dart';
 
 class ChatScreen extends StatelessWidget {
   const ChatScreen({super.key});
@@ -43,7 +44,8 @@ Widget build(BuildContext buildContext){
           },
           )
       ),
-      Text('Salario: \$165')
+      //Caja de texto de mensajes
+      const MessageFieldBox(),
     ]
     ),
     )
